@@ -1,0 +1,1112 @@
+[2024-09-05 13:05:06] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-09-05 13:05:06] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, create_zip_archive, wrapup
+[2024-09-05 13:05:06] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-09-05 13:05:08] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-09-05 13:05:08] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-09-05 13:05:08] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-09-05 13:05:08] [class-ss-setup-task.php:33] Creating archive directory: C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506\
+[2024-09-05 13:05:08] [class-ss-setup-task.php:72] Adding origin URL to queue: http://ochron-solutions.test/
+[2024-09-05 13:05:08] [class-ss-setup-task.php:137] File C:\laragon\www\Ochron-Solutions\wp-content\plugins\simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js exists; adding to queue as: C:/laragon/www/Ochron-Solutions/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-09-05 13:05:09] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-09-05 13:05:09] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-09-05 13:05:09] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-09-05 13:05:09] [class-ss-fetch-urls-task.php:69] Total pages: 2; Pages remaining: 2
+[2024-09-05 13:05:09] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/
+[2024-09-05 13:05:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 2
+[2024-09-05 13:05:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac850344d-jpx6Jj.tmp
+[2024-09-05 13:05:09] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/?simply_static_page=682
+[2024-09-05 13:05:09] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/?simply_static_page=682
+[2024-09-05 13:05:10] [class-ss-url-fetcher.php:103] Filesize: 195252 bytes
+[2024-09-05 13:05:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-09-05 13:05:10] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-09-05 13:05:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac850344d-jpx6Jj.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/index.html
+[2024-09-05 13:05:10] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:10] [class-ss-fetch-urls-task.php:159] Adding 57 URLs to the queue
+[2024-09-05 13:05:10] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:10] [class-ss-page.php:119] Checking Content Identical:82a8fbe2a11983674e169accc9600bfa0aea9fa7===. Value: FALSE
+[2024-09-05 13:05:10] [class-ss-fetch-urls-task.php:72] URL: C:/laragon/www/Ochron-Solutions/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-09-05 13:05:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 2
+[2024-09-05 13:05:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:10] [class-ss-url-fetcher.php:83] Not fetching URL because it is not a local URL
+[2024-09-05 13:05:10] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 2 pages/files
+[2024-09-05 13:05:10] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-09-05 13:05:10] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-09-05 13:05:10] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-09-05 13:05:10] [class-ss-fetch-urls-task.php:69] Total pages: 58; Pages remaining: 56
+[2024-09-05 13:05:10] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/about/
+[2024-09-05 13:05:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:50; Total: 58
+[2024-09-05 13:05:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac86cf462-AefBdv.tmp
+[2024-09-05 13:05:10] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/about/?simply_static_page=684
+[2024-09-05 13:05:10] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/about/?simply_static_page=684
+[2024-09-05 13:05:12] [class-ss-url-fetcher.php:103] Filesize: 177612 bytes
+[2024-09-05 13:05:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-09-05 13:05:12] [class-ss-url-fetcher.php:233] New filename for static page: /about/index.html
+[2024-09-05 13:05:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac86cf462-AefBdv.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/about/index.html
+[2024-09-05 13:05:12] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:12] [class-ss-fetch-urls-task.php:159] Adding 41 URLs to the queue
+[2024-09-05 13:05:12] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:12] [class-ss-page.php:119] Checking Content Identical:8c4c5a78b73f71d56001fbfdbb0e8508434e47c7===. Value: FALSE
+[2024-09-05 13:05:12] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/services/
+[2024-09-05 13:05:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:49; Total: 58
+[2024-09-05 13:05:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8888b93-hvBxVE.tmp
+[2024-09-05 13:05:12] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/services/?simply_static_page=685
+[2024-09-05 13:05:12] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/services/?simply_static_page=685
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:103] Filesize: 169932 bytes
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:233] New filename for static page: /services/index.html
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8888b93-hvBxVE.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/services/index.html
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:159] Adding 45 URLs to the queue
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:14] [class-ss-page.php:119] Checking Content Identical:a14e620fe39bdd760e5833c6fd9d76b347e762d0===. Value: FALSE
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/uploads/2024/09/logo-blue.png
+[2024-09-05 13:05:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:48; Total: 58
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8a318ac-9lDmvL.tmp
+[2024-09-05 13:05:14] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/uploads/2024/09/logo-blue.png?simply_static_page=686
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/uploads/2024/09/logo-blue.png?simply_static_page=686
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:103] Filesize: 8590 bytes
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/09/logo-blue.png
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8a318ac-9lDmvL.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/uploads/2024/09/logo-blue.png
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:14] [class-ss-page.php:119] Checking Content Identical:2baa05850ae6b137a6873d64ec0f05c60282be76===. Value: FALSE
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/uploads/2024/09/cropped-logo-blue.png
+[2024-09-05 13:05:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:47; Total: 58
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8a3cfaa-rpWR3D.tmp
+[2024-09-05 13:05:14] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/uploads/2024/09/cropped-logo-blue.png?simply_static_page=687
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/uploads/2024/09/cropped-logo-blue.png?simply_static_page=687
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:103] Filesize: 15111 bytes
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/09/cropped-logo-blue.png
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8a3cfaa-rpWR3D.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/uploads/2024/09/cropped-logo-blue.png
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:14] [class-ss-page.php:119] Checking Content Identical:164aa3683d052fed062c2164c355bd8ad5644441===. Value: FALSE
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/uploads/2024/09/cropped-logo-blue-300x300.png
+[2024-09-05 13:05:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:46; Total: 58
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8a49282-w2SF6g.tmp
+[2024-09-05 13:05:14] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/uploads/2024/09/cropped-logo-blue-300x300.png?simply_static_page=688
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/uploads/2024/09/cropped-logo-blue-300x300.png?simply_static_page=688
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:103] Filesize: 16191 bytes
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/09/cropped-logo-blue-300x300.png
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8a49282-w2SF6g.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/uploads/2024/09/cropped-logo-blue-300x300.png
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:14] [class-ss-page.php:119] Checking Content Identical:c48a8145633831839b688405d6c7802850491c70===. Value: FALSE
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/uploads/2024/09/cropped-logo-blue-150x150.png
+[2024-09-05 13:05:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:45; Total: 58
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8a543c8-gXbiqn.tmp
+[2024-09-05 13:05:14] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/uploads/2024/09/cropped-logo-blue-150x150.png?simply_static_page=689
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/uploads/2024/09/cropped-logo-blue-150x150.png?simply_static_page=689
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:103] Filesize: 10217 bytes
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/09/cropped-logo-blue-150x150.png
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8a543c8-gXbiqn.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/uploads/2024/09/cropped-logo-blue-150x150.png
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:14] [class-ss-page.php:119] Checking Content Identical:8d7d42845025c533ffe1b625ff5c869e9b1149bf===. Value: FALSE
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/uploads/2024/09/cropped-logo-blue-270x270.png
+[2024-09-05 13:05:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:44; Total: 58
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8a5f3a1-eO5E4b.tmp
+[2024-09-05 13:05:14] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/uploads/2024/09/cropped-logo-blue-270x270.png?simply_static_page=690
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/uploads/2024/09/cropped-logo-blue-270x270.png?simply_static_page=690
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:103] Filesize: 15571 bytes
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/09/cropped-logo-blue-270x270.png
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8a5f3a1-eO5E4b.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/uploads/2024/09/cropped-logo-blue-270x270.png
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:14] [class-ss-page.php:119] Checking Content Identical:63fe23c094bfce51fcb93ea6fa9a8f20bd24de0b===. Value: FALSE
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/uploads/2024/09/cropped-logo-blue-192x192.png
+[2024-09-05 13:05:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:43; Total: 58
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8a6a676-TxVzIw.tmp
+[2024-09-05 13:05:14] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/uploads/2024/09/cropped-logo-blue-192x192.png?simply_static_page=691
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/uploads/2024/09/cropped-logo-blue-192x192.png?simply_static_page=691
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:103] Filesize: 12348 bytes
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/09/cropped-logo-blue-192x192.png
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8a6a676-TxVzIw.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/uploads/2024/09/cropped-logo-blue-192x192.png
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:14] [class-ss-page.php:119] Checking Content Identical:360dcdf2b8f5fbc4e43bddd35600d1b89e3082de===. Value: FALSE
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/uploads/2024/09/cropped-logo-blue-180x180.png
+[2024-09-05 13:05:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:42; Total: 58
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8a760eb-O6FUwq.tmp
+[2024-09-05 13:05:14] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/uploads/2024/09/cropped-logo-blue-180x180.png?simply_static_page=692
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/uploads/2024/09/cropped-logo-blue-180x180.png?simply_static_page=692
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:103] Filesize: 10823 bytes
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/09/cropped-logo-blue-180x180.png
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8a760eb-O6FUwq.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/uploads/2024/09/cropped-logo-blue-180x180.png
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:14] [class-ss-page.php:119] Checking Content Identical:a34d08490157ca95aff20205e7f6feb11f4f2e68===. Value: FALSE
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/uploads/2024/09/cropped-logo-blue-32x32.png
+[2024-09-05 13:05:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:41; Total: 58
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8a80ff8-pHdDp9.tmp
+[2024-09-05 13:05:14] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/uploads/2024/09/cropped-logo-blue-32x32.png?simply_static_page=693
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/uploads/2024/09/cropped-logo-blue-32x32.png?simply_static_page=693
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:103] Filesize: 1074 bytes
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/09/cropped-logo-blue-32x32.png
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8a80ff8-pHdDp9.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/uploads/2024/09/cropped-logo-blue-32x32.png
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:14] [class-ss-page.php:119] Checking Content Identical:3848f210faae44f9cae2446fc71b9f7d3e851f3d===. Value: FALSE
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/uploads/2020/06/portfolio4-1.jpg
+[2024-09-05 13:05:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:40; Total: 58
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8a8c877-rSmkl8.tmp
+[2024-09-05 13:05:14] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/uploads/2020/06/portfolio4-1.jpg?simply_static_page=694
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/uploads/2020/06/portfolio4-1.jpg?simply_static_page=694
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:103] Filesize: 59796 bytes
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2020/06/portfolio4-1.jpg
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8a8c877-rSmkl8.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/uploads/2020/06/portfolio4-1.jpg
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:14] [class-ss-page.php:119] Checking Content Identical:9f44ae0beb820d65439d700275553a045b0d79de===. Value: FALSE
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/uploads/2020/06/portfolio3.jpg
+[2024-09-05 13:05:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:39; Total: 58
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8a99055-501X6T.tmp
+[2024-09-05 13:05:14] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/uploads/2020/06/portfolio3.jpg?simply_static_page=695
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/uploads/2020/06/portfolio3.jpg?simply_static_page=695
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:103] Filesize: 65741 bytes
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2020/06/portfolio3.jpg
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8a99055-501X6T.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/uploads/2020/06/portfolio3.jpg
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:14] [class-ss-page.php:119] Checking Content Identical:90f56dd32df33c9db169e684a5d3c7cbc7194523===. Value: FALSE
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/uploads/2020/06/portfolio1.jpg
+[2024-09-05 13:05:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:38; Total: 58
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8aa356f-ofAXJK.tmp
+[2024-09-05 13:05:14] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/uploads/2020/06/portfolio1.jpg?simply_static_page=696
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/uploads/2020/06/portfolio1.jpg?simply_static_page=696
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:103] Filesize: 52047 bytes
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2020/06/portfolio1.jpg
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8aa356f-ofAXJK.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/uploads/2020/06/portfolio1.jpg
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:14] [class-ss-page.php:119] Checking Content Identical:44dac6927022d9374259a19c73c37ce90a221d04===. Value: FALSE
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/uploads/2021/03/logo-5.svg
+[2024-09-05 13:05:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:37; Total: 58
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8aafe3d-TK44tK.tmp
+[2024-09-05 13:05:14] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/uploads/2021/03/logo-5.svg?simply_static_page=697
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/uploads/2021/03/logo-5.svg?simply_static_page=697
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:103] Filesize: 3207 bytes
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2021/03/logo-5.svg
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8aafe3d-TK44tK.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/uploads/2021/03/logo-5.svg
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:14] [class-ss-page.php:119] Checking Content Identical:206b5c54068f3450647a75e6dcbb0a662bf7c946===. Value: FALSE
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/uploads/2021/03/logo-3.svg
+[2024-09-05 13:05:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:36; Total: 58
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8abb5a7-NLCqo0.tmp
+[2024-09-05 13:05:14] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/uploads/2021/03/logo-3.svg?simply_static_page=698
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/uploads/2021/03/logo-3.svg?simply_static_page=698
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:103] Filesize: 6642 bytes
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2021/03/logo-3.svg
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8abb5a7-NLCqo0.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/uploads/2021/03/logo-3.svg
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:14] [class-ss-page.php:119] Checking Content Identical:e211cce58046d7733444321dd65eb95da429c5a7===. Value: FALSE
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/uploads/2021/03/logo-4.svg
+[2024-09-05 13:05:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 58
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8ac668d-tGiNlR.tmp
+[2024-09-05 13:05:14] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/uploads/2021/03/logo-4.svg?simply_static_page=699
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/uploads/2021/03/logo-4.svg?simply_static_page=699
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:103] Filesize: 6174 bytes
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2021/03/logo-4.svg
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8ac668d-tGiNlR.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/uploads/2021/03/logo-4.svg
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:14] [class-ss-page.php:119] Checking Content Identical:cf6ec64ef640663f5c47e0404f97d1042ae6b129===. Value: FALSE
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/uploads/2021/03/logo-2.svg
+[2024-09-05 13:05:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 58
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8ad176c-l3eD3D.tmp
+[2024-09-05 13:05:14] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/uploads/2021/03/logo-2.svg?simply_static_page=700
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/uploads/2021/03/logo-2.svg?simply_static_page=700
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:103] Filesize: 8303 bytes
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2021/03/logo-2.svg
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8ad176c-l3eD3D.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/uploads/2021/03/logo-2.svg
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:14] [class-ss-page.php:119] Checking Content Identical:c9d15492a34fe579120fae7f0159ffb46cd5439c===. Value: FALSE
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/uploads/2020/01/team-1.jpg
+[2024-09-05 13:05:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 58
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8adc2b5-H0zXeD.tmp
+[2024-09-05 13:05:14] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/uploads/2020/01/team-1.jpg?simply_static_page=701
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/uploads/2020/01/team-1.jpg?simply_static_page=701
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:103] Filesize: 99647 bytes
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2020/01/team-1.jpg
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8adc2b5-H0zXeD.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/uploads/2020/01/team-1.jpg
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:14] [class-ss-page.php:119] Checking Content Identical:1220f728413211ca52388ca945ac1d0c32f0449b===. Value: FALSE
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/uploads/2020/01/team-2.jpg
+[2024-09-05 13:05:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 58
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8ae8250-eHmoXN.tmp
+[2024-09-05 13:05:14] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/uploads/2020/01/team-2.jpg?simply_static_page=702
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/uploads/2020/01/team-2.jpg?simply_static_page=702
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:103] Filesize: 98541 bytes
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2020/01/team-2.jpg
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8ae8250-eHmoXN.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/uploads/2020/01/team-2.jpg
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:14] [class-ss-page.php:119] Checking Content Identical:79b959ad86ea8c75579330139f88a6e77d069cb2===. Value: FALSE
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/uploads/2020/01/team-3.jpg
+[2024-09-05 13:05:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 58
+[2024-09-05 13:05:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8af3450-Bo1mhD.tmp
+[2024-09-05 13:05:14] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/uploads/2020/01/team-3.jpg?simply_static_page=703
+[2024-09-05 13:05:14] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/uploads/2020/01/team-3.jpg?simply_static_page=703
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:103] Filesize: 141657 bytes
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2020/01/team-3.jpg
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8af3450-Bo1mhD.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/uploads/2020/01/team-3.jpg
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:15] [class-ss-page.php:119] Checking Content Identical:0dee1b145100d307ce6fee43078e236702c80ecc===. Value: FALSE
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/plugins/popup-anything-on-click/assets/images/essentialplugin-logo-small.png
+[2024-09-05 13:05:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 58
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8b0b85b-BNDUac.tmp
+[2024-09-05 13:05:15] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/plugins/popup-anything-on-click/assets/images/essentialplugin-logo-small.png?simply_static_page=704
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/plugins/popup-anything-on-click/assets/images/essentialplugin-logo-small.png?simply_static_page=704
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:103] Filesize: 4550 bytes
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/popup-anything-on-click/assets/images/essentialplugin-logo-small.png
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8b0b85b-BNDUac.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/plugins/popup-anything-on-click/assets/images/essentialplugin-logo-small.png
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:15] [class-ss-page.php:119] Checking Content Identical:04bf9c9c99184b49b938499c17c61d400441f93a===. Value: FALSE
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-includes/js/jquery/jquery.min.js
+[2024-09-05 13:05:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 58
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8b11e27-x1tTGN.tmp
+[2024-09-05 13:05:15] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-includes/js/jquery/jquery.min.js?simply_static_page=705
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-includes/js/jquery/jquery.min.js?simply_static_page=705
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:103] Filesize: 87553 bytes
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery.min.js
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8b11e27-x1tTGN.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-includes/js/jquery/jquery.min.js
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:15] [class-ss-page.php:119] Checking Content Identical:79cd3587d565afe290076a8d36c31c305a573d18===. Value: FALSE
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-includes/js/jquery/jquery-migrate.min.js
+[2024-09-05 13:05:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 58
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8b1d555-rEhMiK.tmp
+[2024-09-05 13:05:15] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=706
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=706
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:103] Filesize: 13577 bytes
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery-migrate.min.js
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8b1d555-rEhMiK.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-includes/js/jquery/jquery-migrate.min.js
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:15] [class-ss-page.php:119] Checking Content Identical:3ad0c10e501ac2a9bfa18f9cd7e700219b378738===. Value: FALSE
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/themes/astra/assets/js/minified/frontend.min.js
+[2024-09-05 13:05:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 58
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8b27ddd-EFMfbq.tmp
+[2024-09-05 13:05:15] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/themes/astra/assets/js/minified/frontend.min.js?simply_static_page=707
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/themes/astra/assets/js/minified/frontend.min.js?simply_static_page=707
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:103] Filesize: 23322 bytes
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/astra/assets/js/minified/frontend.min.js
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8b27ddd-EFMfbq.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/themes/astra/assets/js/minified/frontend.min.js
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:15] [class-ss-page.php:119] Checking Content Identical:3c5e805a6dd4f1baaf69b400a6608f1266d3468f===. Value: FALSE
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-includes/js/dist/hooks.min.js
+[2024-09-05 13:05:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 58
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8b2e9a8-foFSKs.tmp
+[2024-09-05 13:05:15] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-includes/js/dist/hooks.min.js?simply_static_page=708
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-includes/js/dist/hooks.min.js?simply_static_page=708
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:103] Filesize: 4307 bytes
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/hooks.min.js
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8b2e9a8-foFSKs.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-includes/js/dist/hooks.min.js
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:15] [class-ss-page.php:119] Checking Content Identical:ee6aa3d65b474309376468b24bb6f829a4514809===. Value: FALSE
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-includes/js/dist/i18n.min.js
+[2024-09-05 13:05:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 58
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8b3ab19-WxVaOg.tmp
+[2024-09-05 13:05:15] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-includes/js/dist/i18n.min.js?simply_static_page=709
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-includes/js/dist/i18n.min.js?simply_static_page=709
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:103] Filesize: 9141 bytes
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/i18n.min.js
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8b3ab19-WxVaOg.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-includes/js/dist/i18n.min.js
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:15] [class-ss-page.php:119] Checking Content Identical:9997a1745f48bdd233dbe9bd8164daa53eba105b===. Value: FALSE
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/plugins/contact-form-7/includes/swv/js/index.js
+[2024-09-05 13:05:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 58
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8b47530-snth1s.tmp
+[2024-09-05 13:05:15] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/plugins/contact-form-7/includes/swv/js/index.js?simply_static_page=710
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/plugins/contact-form-7/includes/swv/js/index.js?simply_static_page=710
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:103] Filesize: 11513 bytes
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/contact-form-7/includes/swv/js/index.js
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8b47530-snth1s.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/plugins/contact-form-7/includes/swv/js/index.js
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:15] [class-ss-page.php:119] Checking Content Identical:ad12044651ffac0badcd0e42f32edef91678b1ff===. Value: FALSE
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/plugins/contact-form-7/includes/js/index.js
+[2024-09-05 13:05:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 58
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8b52952-3JS8za.tmp
+[2024-09-05 13:05:15] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/plugins/contact-form-7/includes/js/index.js?simply_static_page=711
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/plugins/contact-form-7/includes/js/index.js?simply_static_page=711
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:103] Filesize: 13423 bytes
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/contact-form-7/includes/js/index.js
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8b52952-3JS8za.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/plugins/contact-form-7/includes/js/index.js
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:15] [class-ss-page.php:119] Checking Content Identical:0c8258ee3cbe887b0e77ff79db940fadfe56f95e===. Value: FALSE
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-includes/js/dist/dom-ready.min.js
+[2024-09-05 13:05:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 58
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8b5cf22-jlt2Yu.tmp
+[2024-09-05 13:05:15] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-includes/js/dist/dom-ready.min.js?simply_static_page=712
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-includes/js/dist/dom-ready.min.js?simply_static_page=712
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:103] Filesize: 457 bytes
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/dom-ready.min.js
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8b5cf22-jlt2Yu.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-includes/js/dist/dom-ready.min.js
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:15] [class-ss-page.php:119] Checking Content Identical:3c03312717fb495c051d02a3d27ec0d8abc2557d===. Value: FALSE
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/plugins/astra-sites/inc/lib/onboarding/assets/dist/template-preview/main.js
+[2024-09-05 13:05:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 58
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8b62a1d-dE1XfZ.tmp
+[2024-09-05 13:05:15] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/plugins/astra-sites/inc/lib/onboarding/assets/dist/template-preview/main.js?simply_static_page=713
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/plugins/astra-sites/inc/lib/onboarding/assets/dist/template-preview/main.js?simply_static_page=713
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:103] Filesize: 6581 bytes
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/astra-sites/inc/lib/onboarding/assets/dist/template-preview/main.js
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8b62a1d-dE1XfZ.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/plugins/astra-sites/inc/lib/onboarding/assets/dist/template-preview/main.js
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:15] [class-ss-page.php:119] Checking Content Identical:fad4e52c06b86b8df6a4220707aad9c01ff74f7e===. Value: FALSE
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/spectra-block-positioning.min.js
+[2024-09-05 13:05:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 58
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8b6c4da-pHUNy3.tmp
+[2024-09-05 13:05:15] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/spectra-block-positioning.min.js?simply_static_page=714
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/spectra-block-positioning.min.js?simply_static_page=714
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:103] Filesize: 4479 bytes
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/spectra-block-positioning.min.js
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8b6c4da-pHUNy3.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/spectra-block-positioning.min.js
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:15] [class-ss-page.php:119] Checking Content Identical:d5ce0633c2894a4c3cd01d1c7d219fce4a1e01e2===. Value: FALSE
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/testimonial.min.js
+[2024-09-05 13:05:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 58
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8b7890d-s5SIfw.tmp
+[2024-09-05 13:05:15] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/testimonial.min.js?simply_static_page=715
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/testimonial.min.js?simply_static_page=715
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:103] Filesize: 1372 bytes
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/testimonial.min.js
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8b7890d-s5SIfw.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/testimonial.min.js
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:15] [class-ss-page.php:119] Checking Content Identical:80a228e8a23342a25a277142bf7f262a4b693804===. Value: FALSE
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/imagesloaded.min.js
+[2024-09-05 13:05:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 58
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8b7ecec-8oBxFB.tmp
+[2024-09-05 13:05:15] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/imagesloaded.min.js?simply_static_page=716
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/imagesloaded.min.js?simply_static_page=716
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:103] Filesize: 7303 bytes
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/imagesloaded.min.js
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8b7ecec-8oBxFB.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/imagesloaded.min.js
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:15] [class-ss-page.php:119] Checking Content Identical:a560113bae3e44dd7b24dc196bb633269a248da9===. Value: FALSE
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/slick.min.js
+[2024-09-05 13:05:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 58
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8b8aa93-FBqtqf.tmp
+[2024-09-05 13:05:15] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/slick.min.js?simply_static_page=717
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/slick.min.js?simply_static_page=717
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:103] Filesize: 43885 bytes
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/slick.min.js
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8b8aa93-FBqtqf.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/slick.min.js
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:15] [class-ss-page.php:119] Checking Content Identical:fb1c1657fbefce2362f82265ae7a5d0da2e53d55===. Value: FALSE
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/uagb-button-child.min.js
+[2024-09-05 13:05:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 58
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8b96411-MP1nHe.tmp
+[2024-09-05 13:05:15] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/uagb-button-child.min.js?simply_static_page=718
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/uagb-button-child.min.js?simply_static_page=718
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:103] Filesize: 421 bytes
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/uagb-button-child.min.js
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8b96411-MP1nHe.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/uagb-button-child.min.js
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:15] [class-ss-page.php:119] Checking Content Identical:9e1f77b7387f8f489b4cc9793be930b93b237f48===. Value: FALSE
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/uploads/uag-plugin/assets/1000/uag-js-1488.js
+[2024-09-05 13:05:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 58
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8ba04dc-prgt4V.tmp
+[2024-09-05 13:05:15] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/uploads/uag-plugin/assets/1000/uag-js-1488.js?simply_static_page=719
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/uploads/uag-plugin/assets/1000/uag-js-1488.js?simply_static_page=719
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:103] Filesize: 1985 bytes
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/uag-plugin/assets/1000/uag-js-1488.js
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8ba04dc-prgt4V.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/uploads/uag-plugin/assets/1000/uag-js-1488.js
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:15] [class-ss-page.php:119] Checking Content Identical:ab9c9220a8739c9be4aed11bc19154344df18b97===. Value: FALSE
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/plugins/popup-anything-on-click/assets/js/custombox.legacy.min.js
+[2024-09-05 13:05:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 58
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8bacd20-6c8m8k.tmp
+[2024-09-05 13:05:15] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/plugins/popup-anything-on-click/assets/js/custombox.legacy.min.js?simply_static_page=720
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/plugins/popup-anything-on-click/assets/js/custombox.legacy.min.js?simply_static_page=720
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:103] Filesize: 104805 bytes
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/popup-anything-on-click/assets/js/custombox.legacy.min.js
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8bacd20-6c8m8k.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/plugins/popup-anything-on-click/assets/js/custombox.legacy.min.js
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:15] [class-ss-page.php:119] Checking Content Identical:8a995e53692d81705447466d0bb4d39e2e17a92f===. Value: FALSE
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/plugins/popup-anything-on-click/assets/js/custombox.min.js
+[2024-09-05 13:05:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 58
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8bb3941-mFh2Tb.tmp
+[2024-09-05 13:05:15] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/plugins/popup-anything-on-click/assets/js/custombox.min.js?simply_static_page=721
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/plugins/popup-anything-on-click/assets/js/custombox.min.js?simply_static_page=721
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:103] Filesize: 15558 bytes
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/popup-anything-on-click/assets/js/custombox.min.js
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8bb3941-mFh2Tb.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/plugins/popup-anything-on-click/assets/js/custombox.min.js
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:15] [class-ss-page.php:119] Checking Content Identical:eda42745c8ee2c0bddc0ea71b2d82f1b623d4531===. Value: FALSE
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/plugins/popup-anything-on-click/assets/js/popupaoc-public.js
+[2024-09-05 13:05:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 58
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8bbf004-ykHm27.tmp
+[2024-09-05 13:05:15] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/plugins/popup-anything-on-click/assets/js/popupaoc-public.js?simply_static_page=722
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/plugins/popup-anything-on-click/assets/js/popupaoc-public.js?simply_static_page=722
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:103] Filesize: 8600 bytes
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/popup-anything-on-click/assets/js/popupaoc-public.js
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8bbf004-ykHm27.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/plugins/popup-anything-on-click/assets/js/popupaoc-public.js
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:15] [class-ss-page.php:119] Checking Content Identical:cbee9e277e1a67938685a71e0d46938d9cd8b435===. Value: FALSE
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/feed/
+[2024-09-05 13:05:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 58
+[2024-09-05 13:05:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8bc516f-AzMddE.tmp
+[2024-09-05 13:05:15] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/feed/?simply_static_page=723
+[2024-09-05 13:05:15] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/feed/?simply_static_page=723
+[2024-09-05 13:05:17] [class-ss-url-fetcher.php:103] Filesize: 1912 bytes
+[2024-09-05 13:05:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-09-05 13:05:17] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.xml
+[2024-09-05 13:05:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8bc516f-AzMddE.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/feed/index.xml
+[2024-09-05 13:05:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:17] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-09-05 13:05:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:17] [class-ss-page.php:119] Checking Content Identical:f18f92454b94b40d6bd051aab57e5d3d077bd578===. Value: FALSE
+[2024-09-05 13:05:17] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/comments/feed/
+[2024-09-05 13:05:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 58
+[2024-09-05 13:05:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8d1b507-F0H5ow.tmp
+[2024-09-05 13:05:17] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/comments/feed/?simply_static_page=724
+[2024-09-05 13:05:17] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/comments/feed/?simply_static_page=724
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:103] Filesize: 1674 bytes
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.xml
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8d1b507-F0H5ow.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/comments/feed/index.xml
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:159] Adding 3 URLs to the queue
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:18] [class-ss-page.php:119] Checking Content Identical:25a93a5a3bb9e464dfce5cdd8d04b324dee30248===. Value: FALSE
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/themes/astra/assets/css/minified/main.min.css
+[2024-09-05 13:05:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 58
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8e6025a-834w9I.tmp
+[2024-09-05 13:05:18] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/themes/astra/assets/css/minified/main.min.css?simply_static_page=725
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/themes/astra/assets/css/minified/main.min.css?simply_static_page=725
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:103] Filesize: 43139 bytes
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/astra/assets/css/minified/main.min.css
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8e6025a-834w9I.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/themes/astra/assets/css/minified/main.min.css
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:18] [class-ss-page.php:119] Checking Content Identical:e05061bc026f11b61b0c2e01e6c58c1afb0db48f===. Value: FALSE
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/themes/astra/assets/css/minified/menu-animation.min.css
+[2024-09-05 13:05:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 58
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8e673bd-uI5AXq.tmp
+[2024-09-05 13:05:18] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/themes/astra/assets/css/minified/menu-animation.min.css?simply_static_page=726
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/themes/astra/assets/css/minified/menu-animation.min.css?simply_static_page=726
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:103] Filesize: 3501 bytes
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/astra/assets/css/minified/menu-animation.min.css
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8e673bd-uI5AXq.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/themes/astra/assets/css/minified/menu-animation.min.css
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:18] [class-ss-page.php:119] Checking Content Identical:507858c11804e060004cf34f84f8305595bd23bb===. Value: FALSE
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-includes/css/dist/block-library/style.min.css
+[2024-09-05 13:05:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 58
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8e728e5-L56jRY.tmp
+[2024-09-05 13:05:18] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-includes/css/dist/block-library/style.min.css?simply_static_page=727
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-includes/css/dist/block-library/style.min.css?simply_static_page=727
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:103] Filesize: 112419 bytes
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/style.min.css
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8e728e5-L56jRY.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-includes/css/dist/block-library/style.min.css
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:18] [class-ss-page.php:119] Checking Content Identical:2b24009fd37e79d4a601e6d53d615fd2cd0a606b===. Value: FALSE
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/plugins/contact-form-7/includes/css/styles.css
+[2024-09-05 13:05:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 58
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8e79942-0hJHj4.tmp
+[2024-09-05 13:05:18] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/plugins/contact-form-7/includes/css/styles.css?simply_static_page=728
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/plugins/contact-form-7/includes/css/styles.css?simply_static_page=728
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:103] Filesize: 2894 bytes
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/contact-form-7/includes/css/styles.css
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8e79942-0hJHj4.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/plugins/contact-form-7/includes/css/styles.css
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:18] [class-ss-page.php:119] Checking Content Identical:dbc9c4139e49d0d9fb41b7191aad1a2db6c555fd===. Value: FALSE
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/themes/astra/assets/css/minified/compatibility/contact-form-7-main.min.css
+[2024-09-05 13:05:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 58
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8e84f24-mlrtZV.tmp
+[2024-09-05 13:05:18] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/themes/astra/assets/css/minified/compatibility/contact-form-7-main.min.css?simply_static_page=729
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/themes/astra/assets/css/minified/compatibility/contact-form-7-main.min.css?simply_static_page=729
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:103] Filesize: 882 bytes
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/astra/assets/css/minified/compatibility/contact-form-7-main.min.css
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8e84f24-mlrtZV.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/themes/astra/assets/css/minified/compatibility/contact-form-7-main.min.css
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:18] [class-ss-page.php:119] Checking Content Identical:752019275fbebf785cb8352d73e54dde5ba934ea===. Value: FALSE
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/plugins/wp-live-chat-support/public/css/wplc-plugin-public.css
+[2024-09-05 13:05:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 58
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8e8b7e2-nixTv7.tmp
+[2024-09-05 13:05:18] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/plugins/wp-live-chat-support/public/css/wplc-plugin-public.css?simply_static_page=730
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/plugins/wp-live-chat-support/public/css/wplc-plugin-public.css?simply_static_page=730
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:103] Filesize: 98 bytes
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/wp-live-chat-support/public/css/wplc-plugin-public.css
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8e8b7e2-nixTv7.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/plugins/wp-live-chat-support/public/css/wplc-plugin-public.css
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:18] [class-ss-page.php:119] Checking Content Identical:cfd836d385d475baffee45d85cfeb9bb36e70d9e===. Value: FALSE
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/spectra-block-positioning.min.css
+[2024-09-05 13:05:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 58
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8e97a31-Wi2m4d.tmp
+[2024-09-05 13:05:18] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/spectra-block-positioning.min.css?simply_static_page=731
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/spectra-block-positioning.min.css?simply_static_page=731
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:103] Filesize: 297 bytes
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/spectra-block-positioning.min.css
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8e97a31-Wi2m4d.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/spectra-block-positioning.min.css
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:18] [class-ss-page.php:119] Checking Content Identical:9a18917568f386f27e29ce22ccfada883338a7c4===. Value: FALSE
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/slick.min.css
+[2024-09-05 13:05:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 58
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8ea3d3e-niROul.tmp
+[2024-09-05 13:05:18] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/slick.min.css?simply_static_page=732
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/slick.min.css?simply_static_page=732
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:103] Filesize: 4023 bytes
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/slick.min.css
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8ea3d3e-niROul.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/slick.min.css
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:18] [class-ss-page.php:119] Checking Content Identical:70d0e9c0b035df65ab949ca82c50397a340e1fde===. Value: FALSE
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/uploads/uag-plugin/assets/1000/uag-css-1488.css
+[2024-09-05 13:05:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 58
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8eb06f7-faF9Hn.tmp
+[2024-09-05 13:05:18] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/uploads/uag-plugin/assets/1000/uag-css-1488.css?simply_static_page=733
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/uploads/uag-plugin/assets/1000/uag-css-1488.css?simply_static_page=733
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:103] Filesize: 224818 bytes
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/uag-plugin/assets/1000/uag-css-1488.css
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8eb06f7-faF9Hn.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/uploads/uag-plugin/assets/1000/uag-css-1488.css
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:159] Adding 1 URLs to the queue
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:18] [class-ss-page.php:119] Checking Content Identical:4a771c59a54cf86b237cfc2bd2cc6db4a9ca2129===. Value: FALSE
+[2024-09-05 13:05:18] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 2 of 58 pages/files
+[2024-09-05 13:05:18] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-09-05 13:05:18] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-09-05 13:05:18] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:69] Total pages: 69; Pages remaining: 17
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/plugins/popup-anything-on-click/assets/css/font-awesome.min.css
+[2024-09-05 13:05:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 69
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8ec5609-g4aNQS.tmp
+[2024-09-05 13:05:18] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/plugins/popup-anything-on-click/assets/css/font-awesome.min.css?simply_static_page=734
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/plugins/popup-anything-on-click/assets/css/font-awesome.min.css?simply_static_page=734
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:103] Filesize: 31002 bytes
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/popup-anything-on-click/assets/css/font-awesome.min.css
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8ec5609-g4aNQS.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/plugins/popup-anything-on-click/assets/css/font-awesome.min.css
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:18] [class-ss-page.php:119] Checking Content Identical:22b83a9c87769c97e3d4a678e50f470092eadb2c===. Value: FALSE
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/plugins/popup-anything-on-click/assets/css/popupaoc-public.css
+[2024-09-05 13:05:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 69
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8ed2a20-p3W0cO.tmp
+[2024-09-05 13:05:18] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/plugins/popup-anything-on-click/assets/css/popupaoc-public.css?simply_static_page=735
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/plugins/popup-anything-on-click/assets/css/popupaoc-public.css?simply_static_page=735
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:103] Filesize: 54015 bytes
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/popup-anything-on-click/assets/css/popupaoc-public.css
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8ed2a20-p3W0cO.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/plugins/popup-anything-on-click/assets/css/popupaoc-public.css
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:18] [class-ss-page.php:119] Checking Content Identical:897c620b5f358b282a583990aea3762458c46352===. Value: FALSE
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-json/
+[2024-09-05 13:05:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 69
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://ochron-solutions.test/wp-json/
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-json/wp/v2/pages/1488
+[2024-09-05 13:05:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 69
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://ochron-solutions.test/wp-json/wp/v2/pages/1488
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/xmlrpc.php
+[2024-09-05 13:05:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 69
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://ochron-solutions.test/xmlrpc.php
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-json/oembed/1.0/embed
+[2024-09-05 13:05:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 69
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://ochron-solutions.test/wp-json/oembed/1.0/embed
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/faq.min.js
+[2024-09-05 13:05:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 69
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8ee07ab-4iauNo.tmp
+[2024-09-05 13:05:18] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/faq.min.js?simply_static_page=740
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/faq.min.js?simply_static_page=740
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:103] Filesize: 4110 bytes
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/faq.min.js
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8ee07ab-4iauNo.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/faq.min.js
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:18] [class-ss-page.php:119] Checking Content Identical:9d8386225a777c48327b1bdb04fd48c0bef23c97===. Value: FALSE
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/uploads/uag-plugin/assets/1000/uag-js-1490.js
+[2024-09-05 13:05:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 69
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8ee678f-83LFtT.tmp
+[2024-09-05 13:05:18] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/uploads/uag-plugin/assets/1000/uag-js-1490.js?simply_static_page=741
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/uploads/uag-plugin/assets/1000/uag-js-1490.js?simply_static_page=741
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:103] Filesize: 161 bytes
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/uag-plugin/assets/1000/uag-js-1490.js
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8ee678f-83LFtT.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/uploads/uag-plugin/assets/1000/uag-js-1490.js
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:18] [class-ss-page.php:119] Checking Content Identical:33371a889bfdf6337dce4c758db4c44102401cca===. Value: FALSE
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/uploads/uag-plugin/assets/1000/uag-css-1490.css
+[2024-09-05 13:05:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 69
+[2024-09-05 13:05:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8ef30e5-sNDoTq.tmp
+[2024-09-05 13:05:18] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/uploads/uag-plugin/assets/1000/uag-css-1490.css?simply_static_page=742
+[2024-09-05 13:05:18] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/uploads/uag-plugin/assets/1000/uag-css-1490.css?simply_static_page=742
+[2024-09-05 13:05:19] [class-ss-url-fetcher.php:103] Filesize: 169821 bytes
+[2024-09-05 13:05:19] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-09-05 13:05:19] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/uag-plugin/assets/1000/uag-css-1490.css
+[2024-09-05 13:05:19] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8ef30e5-sNDoTq.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/uploads/uag-plugin/assets/1000/uag-css-1490.css
+[2024-09-05 13:05:19] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:19] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-09-05 13:05:19] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:19] [class-ss-page.php:119] Checking Content Identical:6ee451d02fe7be9b2d092ed9a34f3f52362503d7===. Value: FALSE
+[2024-09-05 13:05:19] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-json/wp/v2/pages/1490
+[2024-09-05 13:05:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 69
+[2024-09-05 13:05:19] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://ochron-solutions.test/wp-json/wp/v2/pages/1490
+[2024-09-05 13:05:19] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-09-05 13:05:19] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/uploads/2020/08/testimonial.jpg
+[2024-09-05 13:05:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 69
+[2024-09-05 13:05:19] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:19] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8f0aea8-LfugPS.tmp
+[2024-09-05 13:05:19] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/uploads/2020/08/testimonial.jpg?simply_static_page=744
+[2024-09-05 13:05:19] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/uploads/2020/08/testimonial.jpg?simply_static_page=744
+[2024-09-05 13:05:19] [class-ss-url-fetcher.php:103] Filesize: 2425 bytes
+[2024-09-05 13:05:19] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-09-05 13:05:19] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2020/08/testimonial.jpg
+[2024-09-05 13:05:19] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8f0aea8-LfugPS.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/uploads/2020/08/testimonial.jpg
+[2024-09-05 13:05:19] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:19] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:19] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:19] [class-ss-page.php:119] Checking Content Identical:731ee7c0bce0a9156b6fae8daf975e8b19c999c8===. Value: FALSE
+[2024-09-05 13:05:19] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/uploads/uag-plugin/assets/1000/uag-js-1492.js
+[2024-09-05 13:05:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 69
+[2024-09-05 13:05:19] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:19] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8f10be8-OC7vM2.tmp
+[2024-09-05 13:05:19] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/uploads/uag-plugin/assets/1000/uag-js-1492.js?simply_static_page=745
+[2024-09-05 13:05:19] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/uploads/uag-plugin/assets/1000/uag-js-1492.js?simply_static_page=745
+[2024-09-05 13:05:19] [class-ss-url-fetcher.php:103] Filesize: 161 bytes
+[2024-09-05 13:05:19] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-09-05 13:05:19] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/uag-plugin/assets/1000/uag-js-1492.js
+[2024-09-05 13:05:19] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8f10be8-OC7vM2.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/uploads/uag-plugin/assets/1000/uag-js-1492.js
+[2024-09-05 13:05:19] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:19] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:19] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:19] [class-ss-page.php:119] Checking Content Identical:33371a889bfdf6337dce4c758db4c44102401cca===. Value: FALSE
+[2024-09-05 13:05:19] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/uploads/uag-plugin/assets/1000/uag-css-1492.css
+[2024-09-05 13:05:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 69
+[2024-09-05 13:05:19] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:19] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8f1c5eb-QAGk1Q.tmp
+[2024-09-05 13:05:19] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/uploads/uag-plugin/assets/1000/uag-css-1492.css?simply_static_page=746
+[2024-09-05 13:05:19] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/uploads/uag-plugin/assets/1000/uag-css-1492.css?simply_static_page=746
+[2024-09-05 13:05:19] [class-ss-url-fetcher.php:103] Filesize: 140514 bytes
+[2024-09-05 13:05:19] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-09-05 13:05:19] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/uag-plugin/assets/1000/uag-css-1492.css
+[2024-09-05 13:05:19] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8f1c5eb-QAGk1Q.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/uploads/uag-plugin/assets/1000/uag-css-1492.css
+[2024-09-05 13:05:19] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:19] [class-ss-fetch-urls-task.php:159] Adding 1 URLs to the queue
+[2024-09-05 13:05:19] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:19] [class-ss-page.php:119] Checking Content Identical:e2ef2010fbd43ff3a01623fd4ecb2d8d4876ae0f===. Value: FALSE
+[2024-09-05 13:05:19] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-json/wp/v2/pages/1492
+[2024-09-05 13:05:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 69
+[2024-09-05 13:05:19] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://ochron-solutions.test/wp-json/wp/v2/pages/1492
+[2024-09-05 13:05:19] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-09-05 13:05:19] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/hello-world/
+[2024-09-05 13:05:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 69
+[2024-09-05 13:05:19] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:19] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac8f25985-MNgHi2.tmp
+[2024-09-05 13:05:19] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/hello-world/?simply_static_page=748
+[2024-09-05 13:05:19] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/hello-world/?simply_static_page=748
+[2024-09-05 13:05:20] [class-ss-url-fetcher.php:103] Filesize: 153787 bytes
+[2024-09-05 13:05:20] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-09-05 13:05:20] [class-ss-url-fetcher.php:233] New filename for static page: /hello-world/index.html
+[2024-09-05 13:05:20] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac8f25985-MNgHi2.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/hello-world/index.html
+[2024-09-05 13:05:20] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:20] [class-ss-fetch-urls-task.php:159] Adding 38 URLs to the queue
+[2024-09-05 13:05:20] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:20] [class-ss-page.php:119] Checking Content Identical:faef9125d226b1101621f111ead80f1180f22f61===. Value: FALSE
+[2024-09-05 13:05:20] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/hello-world/feed/
+[2024-09-05 13:05:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 69
+[2024-09-05 13:05:20] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:20] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac90d7293-6xPzSd.tmp
+[2024-09-05 13:05:20] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/hello-world/feed/?simply_static_page=749
+[2024-09-05 13:05:20] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/hello-world/feed/?simply_static_page=749
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:103] Filesize: 1663 bytes
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:233] New filename for static page: /hello-world/feed/index.xml
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac90d7293-6xPzSd.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/hello-world/feed/index.xml
+[2024-09-05 13:05:22] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:22] [class-ss-fetch-urls-task.php:159] Adding 3 URLs to the queue
+[2024-09-05 13:05:22] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:22] [class-ss-page.php:119] Checking Content Identical:7437e4d3f68caf67c88f56c4fd28e8f6b535a9ba===. Value: FALSE
+[2024-09-05 13:05:22] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/uploads/2024/08/gray-scaled-bg.jpg
+[2024-09-05 13:05:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 69
+[2024-09-05 13:05:22] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac9270287-XmsrS6.tmp
+[2024-09-05 13:05:22] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/uploads/2024/08/gray-scaled-bg.jpg?simply_static_page=750
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/uploads/2024/08/gray-scaled-bg.jpg?simply_static_page=750
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:103] Filesize: 205283 bytes
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/08/gray-scaled-bg.jpg
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac9270287-XmsrS6.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/uploads/2024/08/gray-scaled-bg.jpg
+[2024-09-05 13:05:22] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:22] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:22] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:22] [class-ss-page.php:119] Checking Content Identical:83657e58eae8cbc018555023f0d63cdccd5848aa===. Value: FALSE
+[2024-09-05 13:05:22] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 52 of 69 pages/files
+[2024-09-05 13:05:22] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-09-05 13:05:22] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-09-05 13:05:22] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-09-05 13:05:22] [class-ss-fetch-urls-task.php:69] Total pages: 79; Pages remaining: 10
+[2024-09-05 13:05:22] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/plugins/popup-anything-on-click/assets/fonts/fontawesome-webfont.eot
+[2024-09-05 13:05:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 79
+[2024-09-05 13:05:22] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac927b6f3-efeyEM.tmp
+[2024-09-05 13:05:22] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/plugins/popup-anything-on-click/assets/fonts/fontawesome-webfont.eot?simply_static_page=751
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/plugins/popup-anything-on-click/assets/fonts/fontawesome-webfont.eot?simply_static_page=751
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:103] Filesize: 165742 bytes
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/popup-anything-on-click/assets/fonts/fontawesome-webfont.eot
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac927b6f3-efeyEM.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/plugins/popup-anything-on-click/assets/fonts/fontawesome-webfont.eot
+[2024-09-05 13:05:22] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:22] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:22] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:22] [class-ss-page.php:119] Checking Content Identical:d980c2ce873dc43af460d4d572d441304499f400===. Value: FALSE
+[2024-09-05 13:05:22] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/plugins/popup-anything-on-click/assets/fonts/fontawesome-webfont.woff2
+[2024-09-05 13:05:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 79
+[2024-09-05 13:05:22] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac9283b2f-G8CwRA.tmp
+[2024-09-05 13:05:22] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/plugins/popup-anything-on-click/assets/fonts/fontawesome-webfont.woff2?simply_static_page=752
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/plugins/popup-anything-on-click/assets/fonts/fontawesome-webfont.woff2?simply_static_page=752
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:103] Filesize: 77160 bytes
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/popup-anything-on-click/assets/fonts/fontawesome-webfont.woff2
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac9283b2f-G8CwRA.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/plugins/popup-anything-on-click/assets/fonts/fontawesome-webfont.woff2
+[2024-09-05 13:05:22] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:22] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:22] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:22] [class-ss-page.php:119] Checking Content Identical:d6f48cba7d076fb6f2fd6ba993a75b9dc1ecbf0c===. Value: FALSE
+[2024-09-05 13:05:22] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/plugins/popup-anything-on-click/assets/fonts/fontawesome-webfont.woff
+[2024-09-05 13:05:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 79
+[2024-09-05 13:05:22] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac928b8c3-2f1HTi.tmp
+[2024-09-05 13:05:22] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/plugins/popup-anything-on-click/assets/fonts/fontawesome-webfont.woff?simply_static_page=753
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/plugins/popup-anything-on-click/assets/fonts/fontawesome-webfont.woff?simply_static_page=753
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:103] Filesize: 98024 bytes
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/popup-anything-on-click/assets/fonts/fontawesome-webfont.woff
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac928b8c3-2f1HTi.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/plugins/popup-anything-on-click/assets/fonts/fontawesome-webfont.woff
+[2024-09-05 13:05:22] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:22] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:22] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:22] [class-ss-page.php:119] Checking Content Identical:28b782240b3e76db824e12c02754a9731a167527===. Value: FALSE
+[2024-09-05 13:05:22] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/plugins/popup-anything-on-click/assets/fonts/fontawesome-webfont.ttf
+[2024-09-05 13:05:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 79
+[2024-09-05 13:05:22] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac9293b23-aeSrpC.tmp
+[2024-09-05 13:05:22] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/plugins/popup-anything-on-click/assets/fonts/fontawesome-webfont.ttf?simply_static_page=754
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/plugins/popup-anything-on-click/assets/fonts/fontawesome-webfont.ttf?simply_static_page=754
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:103] Filesize: 165548 bytes
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/popup-anything-on-click/assets/fonts/fontawesome-webfont.ttf
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac9293b23-aeSrpC.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/plugins/popup-anything-on-click/assets/fonts/fontawesome-webfont.ttf
+[2024-09-05 13:05:22] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:22] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:22] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:22] [class-ss-page.php:119] Checking Content Identical:13b1eab65a983c7a73bc7997c479d66943f7c6cb===. Value: FALSE
+[2024-09-05 13:05:22] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/plugins/popup-anything-on-click/assets/fonts/fontawesome-webfont.svg
+[2024-09-05 13:05:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 79
+[2024-09-05 13:05:22] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac929c05f-8f8aHS.tmp
+[2024-09-05 13:05:22] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/plugins/popup-anything-on-click/assets/fonts/fontawesome-webfont.svg?simply_static_page=755
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/plugins/popup-anything-on-click/assets/fonts/fontawesome-webfont.svg?simply_static_page=755
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:103] Filesize: 447050 bytes
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/popup-anything-on-click/assets/fonts/fontawesome-webfont.svg
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac929c05f-8f8aHS.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/plugins/popup-anything-on-click/assets/fonts/fontawesome-webfont.svg
+[2024-09-05 13:05:22] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:22] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:22] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:22] [class-ss-page.php:119] Checking Content Identical:b5483b11f8ba213e733b5b8af9927a04fec996f6===. Value: FALSE
+[2024-09-05 13:05:22] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/uploads/2020/01/about-bg-img.jpg
+[2024-09-05 13:05:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 79
+[2024-09-05 13:05:22] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac92a6d7f-sClA0e.tmp
+[2024-09-05 13:05:22] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/uploads/2020/01/about-bg-img.jpg?simply_static_page=756
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/uploads/2020/01/about-bg-img.jpg?simply_static_page=756
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:103] Filesize: 1203694 bytes
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2020/01/about-bg-img.jpg
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac92a6d7f-sClA0e.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/uploads/2020/01/about-bg-img.jpg
+[2024-09-05 13:05:22] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:22] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:22] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:22] [class-ss-page.php:119] Checking Content Identical:a051c442c1f432e59cff77664a2f8a6428b436fe===. Value: FALSE
+[2024-09-05 13:05:22] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-content/uploads/2020/01/why-choose-us.jpg
+[2024-09-05 13:05:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 79
+[2024-09-05 13:05:22] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac92b5353-2HkydW.tmp
+[2024-09-05 13:05:22] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-content/uploads/2020/01/why-choose-us.jpg?simply_static_page=757
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-content/uploads/2020/01/why-choose-us.jpg?simply_static_page=757
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:103] Filesize: 504455 bytes
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2020/01/why-choose-us.jpg
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac92b5353-2HkydW.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-content/uploads/2020/01/why-choose-us.jpg
+[2024-09-05 13:05:22] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:22] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:22] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:22] [class-ss-page.php:119] Checking Content Identical:8e90745d75b1ca044989f59005bcb74de62bbac9===. Value: FALSE
+[2024-09-05 13:05:22] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/category/uncategorized/
+[2024-09-05 13:05:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 79
+[2024-09-05 13:05:22] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac92c06c6-6kdbv3.tmp
+[2024-09-05 13:05:22] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/category/uncategorized/?simply_static_page=758
+[2024-09-05 13:05:22] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/category/uncategorized/?simply_static_page=758
+[2024-09-05 13:05:24] [class-ss-url-fetcher.php:103] Filesize: 148694 bytes
+[2024-09-05 13:05:24] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-09-05 13:05:24] [class-ss-url-fetcher.php:233] New filename for static page: /category/uncategorized/index.html
+[2024-09-05 13:05:24] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac92c06c6-6kdbv3.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/category/uncategorized/index.html
+[2024-09-05 13:05:24] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:24] [class-ss-fetch-urls-task.php:159] Adding 36 URLs to the queue
+[2024-09-05 13:05:24] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:24] [class-ss-page.php:119] Checking Content Identical:83f6f945727c5f54146b6705726c6de991fb5321===. Value: FALSE
+[2024-09-05 13:05:24] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-includes/js/comment-reply.min.js
+[2024-09-05 13:05:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 79
+[2024-09-05 13:05:24] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:24] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac949fddf-TpJwws.tmp
+[2024-09-05 13:05:24] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/wp-includes/js/comment-reply.min.js?simply_static_page=759
+[2024-09-05 13:05:24] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/wp-includes/js/comment-reply.min.js?simply_static_page=759
+[2024-09-05 13:05:24] [class-ss-url-fetcher.php:103] Filesize: 2981 bytes
+[2024-09-05 13:05:24] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-09-05 13:05:24] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/comment-reply.min.js
+[2024-09-05 13:05:24] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac949fddf-TpJwws.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/wp-includes/js/comment-reply.min.js
+[2024-09-05 13:05:24] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:24] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-05 13:05:24] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:24] [class-ss-page.php:119] Checking Content Identical:db36a77f6aaa2063bfbec02c2c0e967438c5a245===. Value: FALSE
+[2024-09-05 13:05:24] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-json/wp/v2/posts/1
+[2024-09-05 13:05:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 79
+[2024-09-05 13:05:24] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://ochron-solutions.test/wp-json/wp/v2/posts/1
+[2024-09-05 13:05:24] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-09-05 13:05:24] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 69 of 79 pages/files
+[2024-09-05 13:05:24] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-09-05 13:05:24] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-09-05 13:05:24] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-09-05 13:05:24] [class-ss-fetch-urls-task.php:69] Total pages: 81; Pages remaining: 2
+[2024-09-05 13:05:24] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/category/uncategorized/feed/
+[2024-09-05 13:05:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 81
+[2024-09-05 13:05:24] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-05 13:05:24] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac94a9703-WbHtsm.tmp
+[2024-09-05 13:05:24] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/category/uncategorized/feed/?simply_static_page=761
+[2024-09-05 13:05:24] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/category/uncategorized/feed/?simply_static_page=761
+[2024-09-05 13:05:25] [class-ss-url-fetcher.php:103] Filesize: 1979 bytes
+[2024-09-05 13:05:25] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-09-05 13:05:25] [class-ss-url-fetcher.php:233] New filename for static page: /category/uncategorized/feed/index.xml
+[2024-09-05 13:05:25] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac94a9703-WbHtsm.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506/category/uncategorized/feed/index.xml
+[2024-09-05 13:05:25] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-05 13:05:25] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-09-05 13:05:25] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-05 13:05:25] [class-ss-page.php:119] Checking Content Identical:874321063db97fc62928d7f361ab50815209c24d===. Value: FALSE
+[2024-09-05 13:05:25] [class-ss-fetch-urls-task.php:72] URL: http://ochron-solutions.test/wp-json/wp/v2/categories/1
+[2024-09-05 13:05:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 81
+[2024-09-05 13:05:25] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://ochron-solutions.test/wp-json/wp/v2/categories/1
+[2024-09-05 13:05:25] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-09-05 13:05:25] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 79 of 81 pages/files
+[2024-09-05 13:05:26] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-09-05 13:05:26] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-09-05 13:05:26] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-09-05 13:05:26] [class-ss-fetch-urls-task.php:69] Total pages: 81; Pages remaining: 0
+[2024-09-05 13:05:26] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 81 of 81 pages/files
+[2024-09-05 13:05:26] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
+[2024-09-05 13:05:26] [class-ss-archive-creation-job.php:136] Current task: generate_404
+[2024-09-05 13:05:26] [class-ss-archive-creation-job.php:153] Performing task: generate_404
+[2024-09-05 13:05:26] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-09-05 13:05:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FLH\AppData\Local\Temp/66d9ac9605558-jZEuVE.tmp
+[2024-09-05 13:05:26] [class-ss-page-handler.php:38] URL Prepared:http://ochron-solutions.test/1725541527?simply_static_page=0
+[2024-09-05 13:05:26] [class-ss-url-fetcher.php:251] Fetching URL: http://ochron-solutions.test/1725541527?simply_static_page=0
+[2024-09-05 13:05:27] [class-ss-url-fetcher.php:103] Filesize: 141761 bytes
+[2024-09-05 13:05:27] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-09-05 13:05:27] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-09-05 13:05:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FLH\AppData\Local\Temp/66d9ac9605558-jZEuVE.tmp to C:\laragon\www\Ochron-Solutions/wp-content/uploads\simply-static\temp-files/simply-static-1-1725541506\404/index.html
+[2024-09-05 13:05:27] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-09-05 13:05:27] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-09-05 13:05:27] [class-ss-page.php:119] Checking Content Identical:5591467c59065f2c25a9d60015dc8195996c738c===. Value: FALSE
+[2024-09-05 13:05:27] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-09-05 13:05:27] [class-ss-archive-creation-job.php:175] We've found our next task: create_zip_archive
+[2024-09-05 13:05:27] [class-ss-archive-creation-job.php:136] Current task: create_zip_archive
+[2024-09-05 13:05:27] [class-ss-archive-creation-job.php:153] Performing task: create_zip_archive
+[2024-09-05 13:05:27] [class-ss-create-zip-archive.php:71] Fetching list of files to include in zip
+[2024-09-05 13:05:27] [class-ss-create-zip-archive.php:80] Creating zip archive
+[2024-09-05 13:05:28] [class-ss-task.php:44] Status message: [create_zip_archive] ZIP archive created:  <a href="http://ochron-solutions.test/wp-content/uploads/simply-static/temp-files/simply-static-1-1725541506.zip">Click here to download</a>
+[2024-09-05 13:05:28] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
+[2024-09-05 13:05:29] [class-ss-archive-creation-job.php:136] Current task: wrapup
+[2024-09-05 13:05:29] [class-ss-archive-creation-job.php:153] Performing task: wrapup
+[2024-09-05 13:05:29] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-09-05 13:05:29] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-09-05 13:05:29] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-09-05 13:05:29] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-09-05 13:05:29] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:00:23
